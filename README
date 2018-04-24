@@ -1,0 +1,41 @@
+High Level Description:
+
+This application is a statistical analysis tool for predicting 
+the outcome of association football matches in the top four leagues 
+in Europe: namely the English Premier League, 
+the Italian Serie A, the German Bundesliga, and 
+the Spanish Primera Division.
+It will predict all the scores for the upcoming matchday 
+as well as allowing the user to input an arbitrary rivals 
+to compare who would win, as long as they are in the same league
+
+Dependencies:
+This suite depends on the following packages, depending on your distribution, 
+you might want to use 'pip install <package>' or install directly from 
+your prefered repositories. Needless to say it requires Python 3 or higher:
+
+Python Packages:
+csv 
+pandas
+numpy
+rpy2
+tkinter 
+pandastable 
+pillow
+matplotlib
+
+R Packages: 
+open R in terminal and type the following: 
+'install.packages("Countr")
+If having trouble with installation you are probably missing 
+a Fortran Compiler. 
+
+This package also needs the following databases:
+https://drive.google.com/open?id=1IWiCAE6hejmVp1iF-OukgvRbrFLPrY_e
+extract them and put them on the same TP directory
+
+Running the Program:
+To run the program:
+1) Go into TP_ultrastat Directory 'cd TP_ultrastat'
+2) Run 'python3 base.py'
+
